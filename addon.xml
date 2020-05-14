@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.zdzy"
+version="1.0.0"
+name="熟知宇某"
+provider-name="Szymou">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.xbmcswift2" version="1.1.1" />
+  <import addon="script.module.requests" version="2.19.1"/>
+  <import addon="script.module.beautifulsoup4" version="4.5.3"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="function.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">熟知电影插件</summary>
+  <description lang="en_GB">熟知电影插件</description>
+  <disclaimer lang="en_GB">熟知电影插件</disclaimer>
+  <assets>
+    <icon>icon.jpg</icon>
+    <fanart>bg.gif</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>
+  </assets>
+  <news>本插件无商业目的，仅供学习，如有侵犯您的权益，请尽快联系10147697114@qq.com进行删除</news>
+</extension>
+</addon>
